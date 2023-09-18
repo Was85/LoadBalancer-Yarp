@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  webapi-test:
+    image: webapitest
+    build:      
+      dockerfile: WebApi-Test/Dockerfile
+    ports:
+      - "5001:80"
+  
+  webapi-test-2:
+    image: webapitest  
+    ports:
+      - "5002:80"
+  
+  webapi-test-3:
+    image: webapitest  
+    ports:
+      - "5003:80"

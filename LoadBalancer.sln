@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancer", "LoadBalancer\LoadBalancer.csproj", "{63BB1C39-C140-473F-8B0C-BC5176F42B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi-Test", "WebApi-Test\WebApi-Test.csproj", "{645F0794-0AC5-4FAE-854B-A1B86A4158A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CC16F0C-5F3F-4801-A1B6-219F7069E7DF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63BB1C39-C140-473F-8B0C-BC5176F42B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BB1C39-C140-473F-8B0C-BC5176F42B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BB1C39-C140-473F-8B0C-BC5176F42B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BB1C39-C140-473F-8B0C-BC5176F42B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645F0794-0AC5-4FAE-854B-A1B86A4158A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645F0794-0AC5-4FAE-854B-A1B86A4158A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645F0794-0AC5-4FAE-854B-A1B86A4158A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645F0794-0AC5-4FAE-854B-A1B86A4158A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {501CF8DD-B260-4657-AE00-6CA2769AB71C}
+	EndGlobalSection
+EndGlobal
