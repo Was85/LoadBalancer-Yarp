@@ -1,3 +1,3 @@
 # LoadBalancer
 
-This is a simple exmaple of Load Balancer using Yarp
+This is a simple example of Load Balancer using YARP
